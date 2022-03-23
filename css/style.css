@@ -1,8 +1,8 @@
 @font-face 
 {
     font-family: 'chunkfiveregular';
-    src: url('font/chunkfive-regular-webfont.woff2') format('woff2'),
-         url('font/chunkfive-regular-webfont.woff') format('woff');
+    src: url('../font/chunkfive-regular-webfont.woff2') format('woff2'),
+         url('../font/chunkfive-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -10,7 +10,7 @@
 
 body
 {
-    background: url("image_modif/bleu.jpeg");
+    background: url("../image_modif/bleu.jpeg");
     font-family: chunkfiveregular, Arial, Helvetica, sans-serif;
 }
 
