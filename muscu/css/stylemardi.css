@@ -10,8 +10,9 @@
 
 body
 {
-    background: url("../image_modif/bleu.jpeg");
+    background-color: #DFF6FF;
     font-family: Arial, Helvetica, sans-serif;
+    color: #0E185F;
 }
 
 #bloc_page
@@ -60,14 +61,12 @@ nav li
 nav a
 {
     font-size: 16px;
-    color: black;
     padding-bottom: 3px;
     text-decoration: none;
 }
 nav a:hover 
 {
-    color: black;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #0E185F;
 }
 
 #banniere_img
@@ -78,9 +77,10 @@ nav a:hover
     max-height: 100%;
     max-width: 100%;
     position: auto;
-    box-shadow: 0px 4px 4px #1c1a19;
+    box-shadow: 0px 4px 4px #0E185F;
     margin-bottom: 60px;
 }
+
 .img_bann
 {
     width: 100%;
